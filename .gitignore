@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Large raw GTFS tables (not needed in production because transit_network.pickle contains all precomputed nodes/edges/timetables)
+chennai-unified-gtfs/
+data/chennai_transit.db
+
+# Virtual environments
+venv/
+env/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
